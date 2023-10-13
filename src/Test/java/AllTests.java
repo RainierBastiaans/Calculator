@@ -1,9 +1,8 @@
-import org.junit.runner.RunWith;
-import org.junit.runners.Suite;
-import org.junit.runners.Suite.SuiteClasses;
+import domain.*;
+import org.junit.platform.suite.api.*;
 
-@RunWith(Suite.class)
-@SuiteClasses({CalculatorTest.class})
+@Suite
+@SelectClasses({CalculatorTest.class, AnnotationTest.class, DigitTest.class, StudentTest.class, GeometryTest.class, Ex2_Asserts.class})
 public class AllTests {
 
 }

@@ -1,3 +1,5 @@
+package domain;
+
 import org.example.Student;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.*;

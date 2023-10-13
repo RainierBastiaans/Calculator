@@ -1,3 +1,5 @@
+package domain;
+
 import org.example.Digit;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.*;
